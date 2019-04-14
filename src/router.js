@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
-import ContactUs from './views/contactUs/contactUs.vue'
+import Contactus from './views/contactUs/contactUs.vue'
+import newHtml from './views/newHtml/index.vue'
 
 Vue.use(Router)
 
@@ -23,8 +24,12 @@ export default new Router({
             component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
         },
         {
-            path: '/contactUs',
-            name: ContactUs
+            path: '/contactus',
+            component: Contactus
+        },
+        {
+            path: '/newhtml',
+            component: newHtml
         }
     ]
 })

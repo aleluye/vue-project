@@ -2,10 +2,11 @@
   <div id="app">
     <div id="nav">
         <Header></Header>
-        <router-link to="/">Home</router-link>
-        <router-link to="/contactUs">About</router-link>
+        <!-- <router-link to="/">Home</router-link>
+        <router-link to="/contactUs">About</router-link> -->
+        <router-view/>
     </div>
-    <router-view/>
+    
   </div>
 </template>
 <script>

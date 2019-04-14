@@ -57,7 +57,7 @@ export default {
     data () {
         return {
             title: [
-                { name: '首页', link: '/home' },
+                { name: '首页', link: '/newhtml' },
                 { name: '学院概况', link: '/home' },
                 { name: '新闻动态', link: '/new' },
                 { name: '网上报名', link: '/new' },
